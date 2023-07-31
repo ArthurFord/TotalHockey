@@ -11,6 +11,9 @@
 		28E4A9BF2A7806A200CC6970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A9BE2A7806A200CC6970 /* ContentView.swift */; };
 		28E4A9C12A7806A300CC6970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E4A9C02A7806A300CC6970 /* Assets.xcassets */; };
 		28E4A9C52A7806A300CC6970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E4A9C42A7806A300CC6970 /* Preview Assets.xcassets */; };
+		28E4A9CD2A7806C800CC6970 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A9CC2A7806C800CC6970 /* Models.swift */; };
+		28E4A9D12A781FE000CC6970 /* LeagueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A9D02A781FE000CC6970 /* LeagueManager.swift */; };
+		28E4A9D52A78239A00CC6970 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A9D42A78239A00CC6970 /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		28E4A9C02A7806A300CC6970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E4A9C22A7806A300CC6970 /* TotalHockey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TotalHockey.entitlements; sourceTree = "<group>"; };
 		28E4A9C42A7806A300CC6970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28E4A9CC2A7806C800CC6970 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		28E4A9D02A781FE000CC6970 /* LeagueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueManager.swift; sourceTree = "<group>"; };
+		28E4A9D42A78239A00CC6970 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		28E4A9B02A7806A200CC6970 = {
 			isa = PBXGroup;
 			children = (
+				28E4A9D42A78239A00CC6970 /* K.swift */,
 				28E4A9BB2A7806A200CC6970 /* TotalHockey */,
 				28E4A9BA2A7806A200CC6970 /* Products */,
 			);
@@ -53,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				28E4A9BC2A7806A200CC6970 /* TotalHockeyApp.swift */,
-				28E4A9BE2A7806A200CC6970 /* ContentView.swift */,
+				28E4A9CF2A78098B00CC6970 /* View Models */,
+				28E4A9CE2A78097E00CC6970 /* Views */,
+				28E4A9CB2A7806AD00CC6970 /* Models */,
 				28E4A9C02A7806A300CC6970 /* Assets.xcassets */,
 				28E4A9C22A7806A300CC6970 /* TotalHockey.entitlements */,
 				28E4A9C32A7806A300CC6970 /* Preview Content */,
@@ -67,6 +76,30 @@
 				28E4A9C42A7806A300CC6970 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28E4A9CB2A7806AD00CC6970 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28E4A9CC2A7806C800CC6970 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28E4A9CE2A78097E00CC6970 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28E4A9BE2A7806A200CC6970 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28E4A9CF2A78098B00CC6970 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				28E4A9D02A781FE000CC6970 /* LeagueManager.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E4A9D12A781FE000CC6970 /* LeagueManager.swift in Sources */,
+				28E4A9D52A78239A00CC6970 /* K.swift in Sources */,
+				28E4A9CD2A7806C800CC6970 /* Models.swift in Sources */,
 				28E4A9BF2A7806A200CC6970 /* ContentView.swift in Sources */,
 				28E4A9BD2A7806A200CC6970 /* TotalHockeyApp.swift in Sources */,
 			);
